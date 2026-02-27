@@ -4,7 +4,7 @@ function quickSort(array) {
         return array
     }
 
-    let pivo = array[0]
+    let pivo = array[Math.floor(array.length/2)] //pegando meio do array pra aumentar velocidade    
     let menores = []
     let maiores = []
     

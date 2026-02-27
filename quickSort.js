@@ -15,5 +15,5 @@ function quickSort(array) {
             maiores.push(array[i])
         }
         
-    return quickSort(menores).concat(pivo, quickSort(maiores))
+    return quickSort(menores).concat([pivo], quickSort(maiores))
 }
